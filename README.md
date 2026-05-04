@@ -17,7 +17,7 @@ https://github.com/PSgautam/WanderLust
 - Interactive maps integration using Mapbox
 - Client-side and server-side validation
 - Session and cookie management
-- Flash messages for user feedback
+- Flash messages to display alerts such as login status and access restrictions
 
 ## Tech Stack
 Frontend: HTML, CSS, JavaScript, EJS, Bootstrap  
@@ -42,12 +42,12 @@ Database: MongoDB
    npm install  
 
 4. Create a .env file and add the following  
-   CLOUDINARY_CLOUD_NAME=your_value  
-   CLOUDINARY_KEY=your_value  
-   CLOUDINARY_SECRET=your_value  
-   MAPBOX_TOKEN=your_value  
-   SESSION_SECRET=your_value
-   MONGO_URL=your_mongodb_connection_string 
+   CLOUD_NAME=your_value  
+   CLOUD_API_KEY=your_value  
+   CLOUD_API_SECRET=your_value  
+   MAP_TOKEN=your_value  
+   SECRET=your_value
+   ATLASDB_URL=your_mongodb_connection_string
 
 6. Run the application  
    npm start  
